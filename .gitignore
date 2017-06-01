@@ -1,0 +1,40 @@
+# Compiled source #
+###################
+*.pyc
+
+# Python project artifacts #
+############################
+__pycache__
+
+# Packages #
+############
+*.gz
+*.tar
+*.zip
+
+# Logs/databases/redis dumps #
+######################
+*.log
+*.sql
+*.sqlite
+*.rdb
+
+# files containing private info #
+#################################
+build_env_props_dev.sh
+
+## Directory-based project format:
+################
+.idea/*
+
+# backup files #
+################
+*.bak
+
+# personal notes #
+##################
+*.note
+
+# test specific files #
+#######################
+test_*
